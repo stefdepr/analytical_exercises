@@ -18,7 +18,7 @@ print(company.cust_purch_hist)
 company.update_purchase_history(['water', 'milk', 'cookies'], "jack")
 company.update_purchase_history(['cola'], "elisa")
 
-daughter = DaughterCompany('nikie', 'Russia')
+daughter = DaughterCompany('nikie', 'Russia', company)
 
 daughter.add_new_cust('thomas')
 daughter.add_new_cust('charlotte')
