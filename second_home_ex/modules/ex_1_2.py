@@ -5,7 +5,7 @@ customer_purchases = {"jack": [1, 3, 1, 1, 2, 4, 5, 3, 1, 3, 3],
                       "john": [6, 7, 8, 8, 8, 4, 5, 9, 2, 1, 3, 3, 5, 1, 6, 7, 6],
                       "lisa": [5, 8, 5, 1, 6]}
 
-
+print("dikkn")
 def get_num_purchases(cust_purchases):
     num_purchases = dict()
 
